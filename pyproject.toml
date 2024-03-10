@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapi-template"
+version = "0.1.0"
+description = ""
+authors = ["oleksiiyudin <oleksejudin6@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0.post1"
+speechrecognition = "^3.10.0"
+pydub = "^0.25.1"
+pydantic = "^2.6.3"
+alembic = "^1.13.1"
+pydantic-settings = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
